@@ -1,6 +1,6 @@
 # Stalks plugin for Julia
 
-Julia plugin that provide the [orbit trap](https://www.mi.sanu.ac.rs/vismath/javier/b7.htm) representation known as _Stalks_ or _Epsilon cross_. This method was popularized by researcher [Clifford A. Pickover](https://en.wikipedia.org/wiki/Clifford_A._Pickover) at the end of the 80s.
+[Julia](https://github.com/mbilotta/julia) plugin that provide the [orbit trap](https://www.mi.sanu.ac.rs/vismath/javier/b7.htm) representation known as _Stalks_ or _Epsilon cross_. This method was popularized by researcher [Clifford A. Pickover](https://en.wikipedia.org/wiki/Clifford_A._Pickover) at the end of the 80s.
 
 ## Installation
 
