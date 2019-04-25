@@ -2,13 +2,19 @@
 
 [Julia](https://github.com/mbilotta/julia) plugin that provide the [orbit trap](https://www.mi.sanu.ac.rs/vismath/javier/b7.htm) representation known as _Stalks_ or _Epsilon cross_. This method was popularized by researcher [Clifford A. Pickover](https://en.wikipedia.org/wiki/Clifford_A._Pickover) at the end of the 80s.
 
+![Mandelbrot set rendered with the Stalks method](stalks_example.png)
+
 ## Installation
 
-TODO
+1. Download the [latest release](https://github.com/mbilotta/stalks-plugin/releases/latest) (the file named `stalks.jup`).
+2. Open _File_ → _Install new plugins..._ in the main UI.
+3. Locate file `stalks.jup`.
+4. Click _Install_.
+5. Restart Julia.
 
 ## Building Stalks plugin
 
-TODO
+You can basically follow the [same steps needed to build DPC4J](https://github.com/mbilotta/dpc4j#building-dpc4j).
 
 ## Acknowledgements
 
