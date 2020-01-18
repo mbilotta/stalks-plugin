@@ -15,6 +15,8 @@ import org.altervista.mbilotta.julia.impl.PointCalculator;
 import org.altervista.mbilotta.julia.impl.RasterImage;
 import org.altervista.mbilotta.julia.math.CoordinateTransform;
 import org.altervista.mbilotta.julia.math.Real;
+import org.altervista.mbilotta.julia.program.parsers.IntParameter;
+import org.altervista.mbilotta.julia.program.parsers.RealParameter;
 
 
 @Author(name = "Maurizio Bilotta", contact = "mailto:maurizeio@gmail.com")
@@ -123,10 +125,12 @@ public class Stalks extends AbstractSimpleRepresentation {
 		return showOrbitY;
 	}
 
+	@IntParameter.Min(1)
 	public void setMaxIterations(int maxIterations) {
 		this.maxIterations = maxIterations;
 	}
 
+	@IntParameter.Min(0)
 	public void setMinIterations(int minIterations) {
 		this.minIterations = minIterations;
 	}
@@ -149,14 +153,17 @@ public class Stalks extends AbstractSimpleRepresentation {
 		this.orbitPositionY = orbitPositionY;
 	}
 
+	@RealParameter.Min("0")
 	public void setOrbitPositionZ(Real orbitPositionZ) {
 		this.orbitPositionZ = orbitPositionZ;
 	}
 
+	@RealParameter.Min("0")
 	public void setOrbitPositionW(Real orbitPositionW) {
 		this.orbitPositionW = orbitPositionW;
 	}
 
+	@RealParameter.Min(value = "0", inclusive = false)
 	public void setOrbitDividend(Real orbitDividend) {
 		this.orbitDividend = orbitDividend;
 	}
